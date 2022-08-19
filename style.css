@@ -92,8 +92,7 @@ header {
     gap: 7%
 }
 
-.btn1,
-.btn2 {
+.btn {
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -106,8 +105,7 @@ header {
     transition: all 0.2s ease;
 }
 
-.btn1:hover,
-.btn2:hover {
+.btn:hover {
     background-color: #101d3e;
     color: white;
     cursor: pointer;
@@ -128,10 +126,9 @@ header {
         max-width: 60vw;
     }
 
-
     .player {
-        height: 170px;
-        width: 200px;
+        height: 160px;
+        width: 160px;
     }
 
     .images {
@@ -139,15 +136,24 @@ header {
         max-height: 100%;
     }
 
-
     #player1 {
-        font-size: 3.2rem;
-        top: 6px;
+        font-size: 2.5rem;
+        top: 13px;
     }
 
     #player2 {
-        font-size: 3.2rem;
-        top: 6px;
+        font-size: 2.5rem;
+        top: 13px;
     }
+
+    .button{
+        gap: 1%;
+    }
+
+    .btn{
+        font-size: 1.1rem;
+        width: 138px;
+    }
+
 
 }
