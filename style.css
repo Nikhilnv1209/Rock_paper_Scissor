@@ -74,9 +74,8 @@ height: 70px;
 .Game_Container
 {
     display: flex;
-    /* min-height: 500px; */
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 50px 0px;
 }
 
@@ -126,5 +125,22 @@ height: 70px;
 }
 
 @media (max-width : 700px) {
+    #winner_name{
+        font-size: 21.5px;
+    }
+
+    .winner-section{
+        margin: 30px auto;
+        max-width: 60vw;
+        }
     
+    .player{
+        height: 200px;
+        width: 200px;
+    }
+
+    .images{
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
