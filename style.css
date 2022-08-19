@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,13 +6,12 @@
     font-family: 'Asap', sans-serif;
 }
 
-body
-{
+body {
     background-color: #212228;
 }
 
-header
-{   display: flex;
+header {
+    display: flex;
     align-items: center;
     justify-content: center;
     background: white;
@@ -23,34 +21,32 @@ header
     color: grey;
 }
 
-.winner-section{
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 30px auto;
-border: 2px solid white;
-border-radius: 10px;
-max-width: 50vw;
-height: 70px;
+.winner-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 50vw;
+    height: 70px;
 }
 
-#winner_name{
+#winner_name {
     font-size: 2rem;
     color: #e7e9f1;
     text-align: center;
 }
 
-.score
-{
+.score {
     color: white;
     background-color: #101d3e;
     font-size: 1rem;
 }
 
 
-#player1
-{
+#player1 {
     display: flex;
     min-width: 71px;
     position: absolute;
@@ -60,8 +56,8 @@ height: 70px;
     justify-content: center;
     left: -77px;
 }
-#player2
-{
+
+#player2 {
     display: flex;
     min-width: 71px;
     position: absolute;
@@ -71,16 +67,15 @@ height: 70px;
     justify-content: center;
     right: -77px;
 }
-.Game_Container
-{
+
+.Game_Container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 50px 0px;
 }
 
-.player
-{
+.player {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -88,18 +83,17 @@ height: 70px;
     width: 40%;
 }
 
-.button
-{
+.button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
     /* height: 100px; */
-    gap:7%
+    gap: 7%
 }
 
-.btn1,.btn2
-{
+.btn1,
+.btn2 {
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -112,35 +106,48 @@ height: 70px;
     transition: all 0.2s ease;
 }
 
-.btn1:hover,.btn2:hover
-{
+.btn1:hover,
+.btn2:hover {
     background-color: #101d3e;
     color: white;
     cursor: pointer;
 }
 
-.images{
+.images {
     max-width: 50%;
     max-height: 60%;
 }
 
-@media (max-width : 1080px) {
-    #winner_name{
-        font-size: 25px;
+@media (max-width : 421px) {
+    #winner_name {
+        font-size: 15px;
     }
 
-    .winner-section{
+    .winner-section {
         margin: 30px auto;
         max-width: 60vw;
-        }
-    
-    .player{
-        height: 200px;
+    }
+
+
+    .player {
+        height: 170px;
         width: 200px;
     }
 
-    .images{
+    .images {
         max-width: 100%;
         max-height: 100%;
     }
+
+
+    #player1 {
+        font-size: 3.2rem;
+        top: 6px;
+    }
+
+    #player2 {
+        font-size: 3.2rem;
+        top: 6px;
+    }
+
 }
