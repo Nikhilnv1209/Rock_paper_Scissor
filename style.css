@@ -124,9 +124,9 @@ height: 70px;
     max-height: 60%;
 }
 
-@media (max-width : 700px) {
+@media (max-width : 1080px) {
     #winner_name{
-        font-size: 21.5px;
+        font-size: 25px;
     }
 
     .winner-section{
