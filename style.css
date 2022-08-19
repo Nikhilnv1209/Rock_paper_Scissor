@@ -118,7 +118,7 @@ header {
     max-height: 60%;
 }
 
-@media (max-width : 421px) {
+@media (max-width: 360px ) {
     #winner_name {
         font-size: 15px;
     }
