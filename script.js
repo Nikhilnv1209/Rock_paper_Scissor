@@ -53,7 +53,7 @@ firstplayerbtn.onclick = () => {
         firstimage.src = "paper.png";
     }
     else if (first_choice == 2) {
-        firstimage.src = "scissor.png";
+        firstimage.src = "Scissor.png";
     }
 }
 
@@ -70,7 +70,7 @@ secondplayerbtn.onclick = function () {
         secondimage.src = "paper.png";
     }
     else if (second_choice == 2) {
-        secondimage.src = "scissor.png";
+        secondimage.src = "Scissor.png";
     }
     update_score(FirstScore , SecondScore);
 }
